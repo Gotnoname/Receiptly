@@ -14,7 +14,6 @@ Receiptly is a free receipt manager. With Receiptly you can effortlessly organiz
 $ docker run -d \
   --name receiptly \
   -p 5100:5100 \
-  -e ASPNETCORE_URLS="http://+:5100" \
   -e JWT_ISSUER="" \
   -e JWT_SECRET="" \
   -v /path/on/host:/app/Files \
@@ -52,7 +51,6 @@ services:
     ports:
       - "5100:5100"
     environment:
-      ASPNETCORE_URLS: "http://+:5100"
       JWT_ISSUER: "your_custom_issuer_name_here"
       JWT_SECRET: "your_secret_here"
     volumes:
