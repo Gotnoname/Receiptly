@@ -1,6 +1,9 @@
 ### Docker hub
 https://hub.docker.com/repository/docker/gotnonamedocker/receiptly
 
+### Github
+I have not yet released my code on GitHub as the project is still under active development. My priority is to refine its functionality and ensure its robustness before making it publicly available. That said, I am considering transitioning it to an open-source initiative in the future, fostering collaboration and contributing to the broader community.
+
 ### What is Receiptly?
 
 Receiptly is a free receipt manager. With Receiptly you can effortlessly organize and access your receipts with the web app. Upload pictures of your receipts, tag them, with quick access, and easy searching—all in one place.
